@@ -10,7 +10,7 @@ void main() {
 }
 
 // 대괄호 안에 작성해 not required로 표시할 수 있음
-// 
-String sayHello(String name, int age, [String? country ]) {
+// 기본값을 주지 않으면 null로 표시됨
+String sayHello(String name, int age, [String? country = "cuba"]) {
   return "Hello $name, you are $age old, and you are from $country";
 }
