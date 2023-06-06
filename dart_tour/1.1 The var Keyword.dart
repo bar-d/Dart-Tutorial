@@ -4,6 +4,6 @@ void main() {
   var name = "name";
   String myName = "bard";
 
-  print(name)
-  print(myName)
+  print(name);
+  print(myName);
 }
