@@ -17,6 +17,8 @@ class Player {
   void sayHello() {
     var name = "derrik";
     print("Hi my name is ${this.name}");
+    // 함수 내 같은 클래스의 프로퍼티와 같은 이름의 변수가 있다면 this를 사용해 클래스의 프로퍼티임을 알려줌
+    // Swift의 self와 비슷함
     print("your name is $name");
   }
 }
