@@ -14,7 +14,6 @@ void main() {
   name = null;
   name ??= "another";
   print(name);
-
 }
 
 // optional로 표시하면 String의 메서드를 호출할 수 없음
