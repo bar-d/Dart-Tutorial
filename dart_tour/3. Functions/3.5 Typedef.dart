@@ -3,7 +3,6 @@
 // Swift의 typealias
 
 void main() {
-  
   print(reverseListOfNumbers([1, 2, 3]));
 }
 
