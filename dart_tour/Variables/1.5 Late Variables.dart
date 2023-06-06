@@ -4,6 +4,8 @@ void main() {
   late final String name;
   // do something, go to api
   // API로 부터 받은 데이터를 변수에 넣어줄 때 사용할 수 있음
-  // final로 한번만 
+  // final로 한번만 할당할 수 있음
+  // print(name) 할당전에 하면 컴파일 에러
   name = "bard";
+  print(name);
 }
